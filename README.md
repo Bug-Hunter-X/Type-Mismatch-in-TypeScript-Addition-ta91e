@@ -1,0 +1,3 @@
+# Type Mismatch in TypeScript Addition
+
+This example demonstrates a common but subtle error in TypeScript where type mismatches can lead to unexpected results. TypeScript's type system allows implicit type coercion in certain cases, leading to the compilation of code that would result in an error in many statically-typed languages.  This is particularly problematic with addition where string concatenation can occur unexpectedly. The solution highlights the importance of explicit type checking or using type guards to ensure correct numerical addition.
